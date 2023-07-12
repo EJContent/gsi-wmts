@@ -250,21 +250,5 @@
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/did2010/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>  
-　 <Layer>   
-   <ows:Title>その他_南極_1:250,000　南極衛星画像図（楕円体高版）_1:250,000　南極衛星画像図（楕円体高版）</ows:Title>   
-   <ows:Identifier>_southpole_satellite_250000</ows:Identifier>  
-     <ows:WGS84BoundingBox>    
-       <ows:LowerCorner>123.75 23.2413461024</ows:LowerCorner>    
-       <ows:UpperCorner>146.25 46.0732306254</ows:UpperCorner>    
-     </ows:WGS84BoundingBox>   
-   <Style isDefault="true">    
-    <ows:Identifier>default</ows:Identifier>    
-   </Style>   
-   <Format>image/png</Format>   
-   <TileMatrixSetLink>    
-    <TileMatrixSet>z2to18</TileMatrixSet>    
-   </TileMatrixSetLink>   
-   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/southpole_satellite_250000/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer> 
  </Contents> 
 </Capabilities>
