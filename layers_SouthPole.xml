@@ -13,6 +13,18 @@
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/southpole_250000/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
   </Layer> 
+   <Layer>   
+   <ows:Title>その他_南極_1:250,000　南極衛星画像図（楕円体高版）_1:250,000　南極衛星画像図（楕円体高版）</ows:Title>   
+   <ows:Identifier>_southpole_satellite_250000</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z2to18</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/southpole_satellite_250000/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer> 
 <Layer>
 <ows:Title>淡色地図</ows:Title>
 <ows:Identifier>pale</ows:Identifier>
