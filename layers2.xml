@@ -2586,30 +2586,30 @@
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/lcmfc2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
    </Layer>
-   <Layer>
-<ows:Title>その他_他機関の情報_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第一期:明治期）</ows:Title>
-<ows:Identifier>landuseclassification1</ows:Identifier>
-<Style isDefault="true">
-<ows:Identifier>default</ows:Identifier>
-</Style>
-<Format>image/png</Format>
-<TileMatrixSetLink>
-<TileMatrixSet>z2to16</TileMatrixSet>
-</TileMatrixSetLink>
-<ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification1/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-</Layer>
-<Layer>
-<ows:Title>その他_他機関の情報_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第二期：昭和期）</ows:Title>
-<ows:Identifier>landuseclassification2</ows:Identifier>
-<Style isDefault="true">
-<ows:Identifier>default</ows:Identifier>
-</Style>
-<Format>image/png</Format>
-<TileMatrixSetLink>
-<TileMatrixSet>z2to16</TileMatrixSet>
-</TileMatrixSetLink>
-<ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification2/{TileMatrix}/{TileCol}/{TileRow}.png"/>
-</Layer>
+   <Layer>   
+   <ows:Title>土地の成り立ち・土地利用_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第一期:明治期）</ows:Title>   
+   <ows:Identifier>landuseclassification1</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z2to18</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification1/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
+  <Layer>   
+   <ows:Title>土地の成り立ち・土地利用_土地分類基本調査（土地履歴調査）－国土政策局_土地利用分類図_土地利用分類（第二期：昭和期）</ows:Title>   
+   <ows:Identifier>landuseclassification2</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z2to18</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://nlftp.mlit.go.jp/kokjo/inspect/tile/landclassification/land_history/landuseclassification/landuseclassification2/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>  
    <Layer>   
      <ows:Title>土地の特徴を示した地図_明治期の低湿地</ows:Title>   
      <ows:Identifier>swale</ows:Identifier>   
