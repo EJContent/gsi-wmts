@@ -287,53 +287,6 @@
       </TileMatrixSetLink>
       <ResourceURL format="image/jpeg" resourceType="tile" template="https://maps.gsi.go.jp/xyz/seamlessphoto/{TileMatrix}/{TileCol}/{TileRow}.jpg" />
     </Layer>
-    <Layer>   
-   <ows:Title>標高・土地の凹凸_色別標高図</ows:Title>   
-   <ows:Identifier>relief</ows:Identifier>   
-   <Style isDefault="true">    
-    <ows:Identifier>default</ows:Identifier>    
-   </Style>   
-   <Format>image/png</Format>   
-   <TileMatrixSetLink>    
-    <TileMatrixSet>z2to18</TileMatrixSet>    
-   </TileMatrixSetLink>   
-   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>  
-  <Layer>   
-   <ows:Title>標高・土地の凹凸_自分で作る色別標高図</ows:Title>   
-   <ows:Identifier>relief_free</ows:Identifier>   
-   <Style isDefault="true">    
-    <ows:Identifier>default</ows:Identifier>    
-   </Style>   
-   <Format>image/png</Format>   
-   <TileMatrixSetLink>    
-    <TileMatrixSet>z2to18</TileMatrixSet>    
-   </TileMatrixSetLink>   
-   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>  
-     <Layer>   
-   <ows:Title>近年の災害_台風・豪雨等_平成28年台風第10号_色別標高図</ows:Title>   
-   <ows:Identifier>_relief_20160830</ows:Identifier>   
-   <Style isDefault="true">    
-    <ows:Identifier>default</ows:Identifier>    
-   </Style>   
-   <Format>image/png</Format>   
-   <TileMatrixSetLink>    
-    <TileMatrixSet>z2to18</TileMatrixSet>    
-   </TileMatrixSetLink>   
-   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>  
-    <Layer>   
-   <ows:Title>近年の災害_台風・豪雨等_平成28年台風第11号及び第9号_色別標高図</ows:Title>   
-   <ows:Identifier>_relief_20160820</ows:Identifier>   
-   <Style isDefault="true">    
-    <ows:Identifier>default</ows:Identifier>    
-   </Style>   
-   <Format>image/png</Format>   
-   <TileMatrixSetLink>    
-    <TileMatrixSet>z2to18</TileMatrixSet>    
-   </TileMatrixSetLink>   
-   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-  </Layer>  
+
   </Contents>
 </Capabilities>
