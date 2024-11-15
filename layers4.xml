@@ -789,6 +789,18 @@
     <TileMatrixSet>z2to18</TileMatrixSet>    
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_lndst_h160824/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+  </Layer>   
+  <Layer>   
+   <ows:Title>近年の災害_台風・豪雨等_平成28年台風第10号_北海道地区_被災前の人工衛星画像&lt;br&gt;(Landsat8)</ows:Title>   
+   <ows:Identifier>20160830typhoon10_lndst_h160824</ows:Identifier>   
+   <Style isDefault="true">    
+    <ows:Identifier>default</ows:Identifier>    
+   </Style>   
+   <Format>image/png</Format>   
+   <TileMatrixSetLink>    
+    <TileMatrixSet>z2to18</TileMatrixSet>    
+   </TileMatrixSetLink>   
+   <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_lndst_h160824/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
   </Layer>  
   <Layer>   
    <ows:Title>近年の災害_台風・豪雨等_平成28年台風第10号_東北地区_被災前の人工衛星画像&lt;br&gt;(Landsat8)</ows:Title>   
@@ -802,6 +814,7 @@
    </TileMatrixSetLink>   
    <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/20160830typhoon10_lndst_t160808/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
   </Layer>  
+
    <Layer>   
      <ows:Title>地震、台風・豪雨等、火山_火山_十勝岳_火山基本図「十勝岳」</ows:Title>   
      <ows:Identifier>vbm</ows:Identifier>   
