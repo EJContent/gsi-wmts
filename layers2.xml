@@ -249,7 +249,31 @@
        <TileMatrixSet>z2to18</TileMatrixSet>    
      </TileMatrixSetLink>   
      <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/relief/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
-   </Layer>  
+   </Layer>   
+   <Layer>   
+     <ows:Title>標高タイル（基盤地図情報数値標高モデル）5A</ows:Title>   
+     <ows:Identifier>dem5a_png</ows:Identifier>   
+       <Style isDefault="true">    
+         <ows:Identifier>default</ows:Identifier>    
+       </Style>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/dem5a_png/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer> 
+   <Layer>   
+     <ows:Title>その他_地図の更新情報や提供地域_基盤地図情報数値標高モデルの更新情報_10mメッシュDEM（火山基本図）の&lt;br&gt;提供地域</ows:Title>   
+     <ows:Identifier>fgd_dem10a_area</ows:Identifier>   
+       <Style isDefault="true">    
+         <ows:Identifier>default</ows:Identifier>    
+       </Style>   
+     <Format>image/png</Format>   
+     <TileMatrixSetLink>    
+       <TileMatrixSet>z2to18</TileMatrixSet>    
+     </TileMatrixSetLink>   
+     <ResourceURL format="image/png" resourceType="tile" template="https://maps.gsi.go.jp/xyz/fgd_dem10a_area/{TileMatrix}/{TileCol}/{TileRow}.png"/>   
+   </Layer> 
    <Layer>   
      <ows:Title>起伏を示した地図_デジタル標高地形図_北海道_札幌_2012年11月</ows:Title>   
      <ows:Identifier>d1-no805</ows:Identifier>   
